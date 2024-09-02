@@ -1,0 +1,38 @@
+.dice-container {
+  min-width: 30rem;
+  max-width: 80rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+
+  h2 {
+    color: black;
+  }
+}
+
+.dice {
+  font-size: 7rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.die {
+  color: slateblue;
+}
+
+.dice-container button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: slateblue;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.dice-container button:hover {
+  background-color: darkslateblue;
+}
